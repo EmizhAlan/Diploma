@@ -1,5 +1,7 @@
 .header {
-    background: #757575;
+    position: sticky;
+    top: 0;
+    background: #C1E8FF;
     padding: 1.25rem 0;
     
     width: 100%;
@@ -59,6 +61,30 @@ div {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0px;
+}
+
+.opt-banner {
+  background: #7DA0CA;
+}
+
+.second-banner {
+  background: white;
+}
+
+.free-banner {
+  background: #5483B3;
+}
+
+.four-banner {
+  background: #052659;
+  color: white;
+}
+
+.footerr{
+  background: #021024;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 .one {
