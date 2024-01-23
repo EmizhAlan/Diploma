@@ -107,8 +107,8 @@ img {
 
 .opt-banner {
   background-color: #7DA0CA;
-  max-width: 1500px;
-    margin: 50px auto;
+  /*max-width: 0px;*/
+    margin: 50px ;
     background: #7DA0CA;
     border-radius: 5px;
     box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
@@ -120,7 +120,8 @@ img {
 }
 
 .zagolovok {
-  line-height: 6rem;
+  line-height: 1rem;
+  font-size: 80px;
   color: blue;
   margin-left: 110px;
   margin-right: 50px;
@@ -142,10 +143,9 @@ img {
 
 .podd {
   margin-left: 190px;
-
   align-items: center;
   justify-content: center;
-  line-height: 0.4rem
+  line-height: 0.1rem
 }
 
 .btn-new {
@@ -153,9 +153,11 @@ img {
   color: white;
   transition: .2s linear;
   background: #0B63F6;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
   margin-bottom: 80px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-new:hover {
@@ -168,15 +170,141 @@ img {
 
 .second-banner {
   background: white;
+  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 10%;
+  margin-bottom: 12px;
 }
 
+/* Стили для баннера с менеджерами B2B */
 .free-banner {
-  background: #5483B3;
+  background: linear-gradient(45deg, white, lightgrey);
+  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 12px;
+  color: black;
+  border-radius: 10px;
 }
 
+/* Стили для главного заголовка */
+.free-banner h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для контейнера с менеджером */
+.border {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Стили для имен и должностей менеджеров */
+.border h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.border h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Стили для контактных данных */
+.border h3 a {
+  color: #FF6347;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Стили для кнопок внутри контейнера */
+.border button {
+  background-color: #FF6347;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Стили при наведении на кнопку */
+.border button:hover {
+  background-color: #DAA520;
+}
+
+/* Стили для блока с информацией */
 .four-banner {
-  background: #052659;
-  color: white;
+  background-color: #f7f7f7;
+  padding: 50px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Стили для заголовка */
+.four-banner h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Стили для основного текста */
+.four-banner h3 {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Стили для подзаголовка */
+.four-banner h4 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Стили для списков */
+.four-banner h5 {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Стили для акцентирования условий доставки */
+.four-banner h5:last-child {
+  color: #FF6347;
+  font-weight: bold;
+}
+
+/* Стили для выделения важного текста */
+.four-banner strong {
+  color: #FF6347;
+}
+
+input.input {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.regis {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.border {
+  border: 2px solid gray;
 }
 
 .footerr{
@@ -184,6 +312,7 @@ img {
   color: white;
   text-align: center;
   padding: 10px;
+  line-height: 0.1rem;
 }
 
 /*menu button*/
