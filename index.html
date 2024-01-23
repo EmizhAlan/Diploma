@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +19,10 @@
     <nav id="main">
         <ul class="flex">
           <li class="logo li"><a href="#">GRANAT</a></li>
-          <li class="li"><a href="#">Home</a></li>
-          <li class="li"><a href="#">About</a></li>
-          <li class="li"><a href="#">Images</a></li>
-          <li class="li"><a href="#">Locations</a></li>
+          <li class="li"><a href="#">Главная</a></li>
+          <li class="li"><a href="#">О нас</a></li>
+          <li class="li"><a href="#">Связаться</a></li>
+          <li class="li"><a href="#">Локации</a></li>
           <li class="li">
             <div id="nav-icon3" class="pushmenu">
                 <span></span>
@@ -46,13 +46,13 @@
                   <li class="current-menu-item"><a href="#" >Главная</a></li>
                   <li class="menu-parent-item"><a href="#">Услуги<i></i></a>
                       <ul class="sub-menu">
-                          <li><a href="#">Какая-то услуга 1</a></li>
-                          <li><a href="#">Какая-то услуга 2</a></li>
-                          <li><a href="#">Какая-то услуга 4</a></li>
+                          <li><a href="#banner">Перечень услуг</a></li>
+                          <li><a href="#banner-2">Начать сотрудничество</a></li>
+                          <li><a href="#">Узнать больше</a></li>
                       </ul>
                   </li>
-                  <li><a href="#">Клиентам</a></li>
-                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#contact">Контакты</a></li>
+                  <li><a href="#about">Клиентам</a></li>
               </ul>
                   </div>
               </nav>    
@@ -85,8 +85,8 @@
            
         </div>
     
-        <div class="second-banner">
-            <h2>ОСТАВЬТЕ ЗАЯВКУИ ПОЛУЧИТЕ КАТАЛОГ</h2>
+        <div class="second-banner" id="banner-2">
+            <h2>ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ КАТАЛОГ</h2>
     
             <div class="field__group">
                 <input class="input" type="text" name="name" placeholder="Имя">
@@ -95,42 +95,46 @@
             <div class="field__group">
                 <input class="input" type="text" name="phone" placeholder="+7 (___) ___-__-__" required="" maxlength="18">
             </div>
-            <button>regis</button>
+            <button class="regis">Оставить</button>
             <div class="field__group">
-                <div class="s-form__policy">
-                  Нажимая на&nbsp;кнопку, вы&nbsp;даете согласие на&nbsp;обработку своих
-                  <a href="/defence/" target="_blank">персональных данных</a>
-                  и&nbsp;на&nbsp;отправку рекламных сообщений.
-                </div>
+                <p>
+                    Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и на отправку рекламных сообщений.</p>
             </div>
         </div>
         <div class="free-banner" id="contact">
             <h1>МЕНЕДЖЕРЫ ОТДЕЛА B2B</h1>
-            <h2>ИШМУРАДОВА ГАЛИНА</h2>
-            <h3>g.ishmuradova@holodilnik.ru</h3>
-            <h3>8 (495) 161-14-44 доб. 9033</h3>
-            <h3>8 (985) 622-49-52</h3>
-    
-            <h2>МУЧКАЕВ ДМИТРИЙ</h2>
-            <h3>d.muchkaev@holodilnik.ru</h3>
-            <h3>8 (495) 161-14-44 доб. 9038</h3>
-            <h3>8 (916) 773-48-89</h3> 
-            
-            <h2>АГАБЕКЯН НАИРУИ</h2>
-            <h3>n.agabekyan@holodilnik.ru</h3>
-            <h3>8 (495) 161-14-44 доб. 127</h3>
-            <h3>8 (495) 161-14-44 доб. 127</h3> 
-    
-            <h2>КОКАРЕВ ВЛАДИСЛАВ</h2>
-            <h3>v.kokarev@holodilnik.ru</h3>
-            <h3>8 (495) 161-14-44 доб. 0489</h3>
-            <h3>8 (926) 686-68-35</h3> 
-            
-            <h2>БОРЫЧЕВ АЛЕКСЕЙ</h2>
-            <h3>a.borychev@holodilnik.ru</h3>
-            <h3>8 (495) 161-14-44 доб. 526</h3>
-            <h3>8 (968) 653-78-75</h3> 
-            
+            <div class="border">
+                
+                <h2>ИШМУРАДОВА ГАЛИНА</h2>
+                <h3>g.ishmuradova@granat.ru</h3>
+                <h3>8 (495) 339-12-32 доб. 9033</h3>
+                <h3>8 (495) 339-12-32</h3>
+                <button>Позвонить</button>
+            </div>
+            <div class="border">
+                <h2>МУЧКАЕВ ДМИТРИЙ</h2>
+                <h3>d.muchkaev@granat.ru</h3>
+                <h3>8 (495) 339-12-32 доб. 9038</h3>
+                <h3>8 (495) 339-12-32</h3> 
+            </div>
+            <div class="border">
+                <h2>АГАБЕКЯН НАИРУИ</h2>
+                <h3>n.agabekyan@granat.ru</h3>
+                <h3>8 (495) 339-12-32 доб. 127</h3>
+                <h3>8 (495) 339-12-32 доб. 127</h3> 
+            </div>
+            <div class="border">
+                <h2>КОКАРЕВ ВЛАДИСЛАВ</h2>
+                <h3>n.agabekyan@granat.ru</h3>
+                <h3>8 (495) 339-12-32 доб. 0489</h3>
+                <h3>8 (495) 339-12-32</h3> 
+            </div>
+            <div class="border">
+                <h2>БОРЫЧЕВ АЛЕКСЕЙ</h2>
+                <h3>n.agabekyan@granat.ru</h3>
+                <h3>8 (495) 339-12-32 доб. 526</h3>
+                <h3>8 (495) 339-12-32</h3> 
+            </div>           
          
             
             <h5>Они будут сопровождать вас на всех этапах работы с партнерской программой.
@@ -138,7 +142,7 @@
         <div class="four-banner" id="about">
     
             <h1>- ВЕДУЩИЙ ПОСТАВЩИК ТЕХНИКИ</h1> 
-            <h3>«HOLODILNIK.RU» — российский интернет-магазин, специализирующийся на продаже электроники и бытовой техники отечественного и зарубежного производства. При работе с партнерами, основная наша задача - обеспечить предпринимателям удобные инструменты и поддержку, и максимально обширный ассортимент техники, что сделает наше сотрудничество не только взаимовыгодным, но и максимально комфортным.</h3>
+            <h3>«GRANAT.RU» — российский интернет-магазин, специализирующийся на продаже электроники и остальных товаров отечественного и зарубежного производства. При работе с партнерами, основная наша задача - обеспечить предпринимателям удобные инструменты и поддержку, и максимально обширный ассортимент техники, что сделает наше сотрудничество не только взаимовыгодным, но и максимально комфортным.</h3>
     
             <h4>Чем это подкреплено:</h4>
     
@@ -153,8 +157,8 @@
     </div>
 
     
-    <footer class="footerr"><p>© 2024 GRANAT.RU — интернет-магазин любой техники
-        Все права защищены</p></footer>
+    <footer class="footerr"><p>© 2024 GRANAT.RU — интернет-магазин любой техники</p>
+        <p>Все права защищены</p></footer>
     
 </body>
 </html>
