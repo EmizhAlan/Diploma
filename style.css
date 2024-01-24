@@ -107,16 +107,16 @@ img {
 
 .opt-banner {
   background-color: #7DA0CA;
-  /*max-width: 0px;*/
-    margin: 50px ;
-    background: #7DA0CA;
-    border-radius: 5px;
-    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
-    padding: 1rem 2rem 1rem 5rem;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
-    background-size: 100% 3rem;
-    position: inherit;
-    line-height: 1rem;
+  margin: 50px ;
+  background: #7DA0CA;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: inherit;
+  text-align: left;
+  line-height: 1rem;
 }
 
 .zagolovok {
@@ -307,7 +307,7 @@ input.input {
   border: 2px solid gray;
 }
 
-.footerr{
+.footerr {
   background: #021024;
   color: white;
   text-align: center;
@@ -315,6 +315,56 @@ input.input {
   line-height: 0.1rem;
 }
 
+/* Адаптивный дизайн для мобильных устройств */
+@media screen and (max-width: 767px) {
+  .opt-banner {
+    padding: 1rem;
+    line-height: 1rem;
+    margin: 20px;
+    
+  }
+  
+  .zagolovok {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  
+  .podd {
+    margin-left: 10px;
+    line-height: 1rem;
+  }
+
+  .pod {
+    font-size: 27px;
+    line-height: 1.3rem;
+  }
+  
+  .podzag {
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  
+  .par {
+    font-size: 20px;
+  }
+  
+  .btn-new {
+    margin-bottom: 20px;
+  }
+}
+
+/* Адаптивный дизайн для планшетов */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Добавьте стили для планшетов здесь */
+}
+
+/* Адаптивный дизайн для десктопов */
+@media screen and (min-width: 1024px) {
+  /* Добавьте стили для десктопов здесь */
+}
 /*menu button*/
 
 
