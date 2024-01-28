@@ -316,6 +316,12 @@ input.input {
   line-height: 0.1rem;
 }
 
+.soso {
+  align-items: center;
+  border-bottom: 5px solid gray;
+  max-width: 200px;margin-left: 10px;
+}
+
 /* Адаптивный дизайн для мобильных устройств */
 @media screen and (max-width: 767px) {
   .opt-banner {
