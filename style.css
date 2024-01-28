@@ -354,6 +354,33 @@ input.input {
   .btn-new {
     margin-bottom: 20px;
   }
+
+  .footerr {
+    line-height: 0.8rem;
+  }
+
+  .flex li{
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  header h1 {
+    font-size: 90px;
+  }
+
+  #nav-icon3 span {
+    width: 20%;
+    height: 1px;
+  }
+
+  .pushmenu {
+    width: 20px;
+    height: 1px;
+  }
+
 }
 
 /* Адаптивный дизайн для планшетов */
