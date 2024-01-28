@@ -186,6 +186,7 @@ img {
   margin-bottom: 12px;
   color: black;
   border-radius: 10px;
+  border: 2px solid white;
 }
 
 /* Стили для главного заголовка */
