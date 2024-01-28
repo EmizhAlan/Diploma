@@ -381,6 +381,10 @@ input.input {
     height: 1px;
   }
 
+  .fixed-nav li.logo {
+    max-width: 700px;
+  }
+
 }
 
 /* Адаптивный дизайн для планшетов */
