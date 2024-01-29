@@ -324,8 +324,79 @@ input.input {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  
+  .opt-banner {
+    padding: 1rem;
+    line-height: 1rem;
+    margin: 20px;
+    
+  }
+  
+  .zagolovok {
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 10px;
+    line-height: 2rem;
+    padding: 10px;
+  }
+  
+  .podd {
+    margin-left: 10px;
+    line-height: 1rem;
+  }
+
+  .pod {
+    font-size: 27px;
+    line-height: 1.3rem;
+  }
+  
+  .podzag {
+    font-size: 30px;
+    line-height: 2rem;
+  }
+  
+  .par {
+    font-size: 20px;
+  }
+  
+  .btn-new {
+    margin-bottom: 20px;
+  }
+
+  .footerr {
+    line-height: 0.8rem;
+  }
+
+  .flex li {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  header h1 {
+    font-size: 90px;
+  }
+
+  #nav-icon3 span {
+    width: 20%;
+    height: 1px;
+  }
+
+  .pushmenu {
+    width: 20px;
+    height: 1px;
+  }
+
+  .fixed-nav li.logo {
+    max-width: 0px;
+  }
+}
+
 /* Адаптивный дизайн для мобильных устройств */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 501px) and (max-width: 767px) {
   .opt-banner {
     padding: 1rem;
     line-height: 1rem;
@@ -427,6 +498,15 @@ input.input {
     font-size: 30px;
     line-height: 2rem;
   }
+
+  .flex li{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
   
 }
 
