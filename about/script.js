@@ -54,4 +54,8 @@ function fixNav() {
   }
 }
 
+if (document.documentElement.clientWidth < 800) {
+
+}
+
 window.addEventListener('scroll', fixNav);
